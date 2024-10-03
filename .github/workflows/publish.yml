@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/witness-client
+      url: https://pypi.org/p/witness_client
     permissions:
       id-token: write
     steps:
