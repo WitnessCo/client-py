@@ -4,6 +4,8 @@ setup(
     name='witness-client',
     version='0.1.0',
     description='A Python client for the Witness API',
+    long_description=open("README.md", 'r').read(),
+    long_description_content_type='text/markdown',
     author='Mihir Wadekar, Joe Coll',
     author_email='team@witness.co',
     url='https://github.com/WitnessCo/client-py',
