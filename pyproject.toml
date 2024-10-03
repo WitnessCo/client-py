@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "witness_client"
+version = "0.0.1"
+description = "A Python client for the Witness API"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+  { name = "Mihir Wadekar", email = "mihir@witness.co" },
+  { name = "Joe Coll", email = "joe@witness.co" },
+]
+dependencies = [
+  "requests",
+  "typing"
+]
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/WitnessCo/client-py"
